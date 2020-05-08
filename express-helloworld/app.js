@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 app.get('/mars', function (req, res) {
   res.send('Hello Mars!\n');
 });
-app.get('/venus', function (req, res) {
+app.get('/venuscd', function (req, res) {
   res.send('Hello Venus!\n');
 });
 
